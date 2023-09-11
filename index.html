@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Weather App</h1>
+        <div class="tab-container">
+            <p class="tab" data-your-weather>Your Weather</p>
+            <p class="tab" data-search-weather>Search Weather</p>
+        </div>
+        <div class="grant-access-container sub-container" data-grant-container>
+            <img src="assets/location.png" width="40" height="40" loading="lazy">
+            <h3 class="grant-access-heading">Grant Access</h3>
+            <p class="grant-para">Allow access to get weather information</p>
+            <button class="grant-btn" data-grant-access-btn>Grant Access</button>
+        </div>
+        <form action="" class="search-container" data-search-form>
+            <input  placeholder="Search for city..." data-search-input>
+            <img src="assets/search.png" width="20" height="20" class="search-walla-img">
+        </form>
+        <div class="main-container sub-container" data-weather-container>
+            <div class="first-container">
+                <p data-cityName></p>
+                <img  width="50" height="50" data-countryIcon>
+            </div>
+            <h3 data-weatherDesc></h3>
+            <img  width="100" height="100" data-weatherIcon>
+            <h2 data-temp></h2>
+            <div class="three-div-container">
+                <div class="parameter">
+                    <img src="assets/wind.png" alt="" width="80" height="80">
+                    <h3>Windspeed</h3>
+                    <p data-windspeed></p>
+                </div>
+                <div class="parameter">
+                    <img src="assets/humidity.png" alt="" width="80" height="80">
+                    <h3>Humidity</h3>
+                    <p data-humidity></p>
+                </div>
+                <div class="parameter">
+                    <img src="assets/cloud.png" alt="" width="80" height="80">
+                    <h3>Clouds</h3>
+                    <p data-cloudiness></p>
+                </div>
+            </div>
+        </div>
+        <div class="gif-container" data-gif-container>
+            <img src="assets/loadinggif.gif" width="150" height="150">
+            <p>Location</p>
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1013adbb;
+    padding: 30px;
+}
+.tab-container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.grant-access-container.active{
+    display: flex;
+}
+.sub-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.grant-access-container{
+    display: none;
+}
+.grant-access-heading{
+    font-size: 30px;
+}
+.grant-para{
+    font-size: 20px;
+}
+.grant-btn{
+    font-size: 20px;
+    color: rgba(42, 42, 42, 0.806);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.search-container{
+    display: none;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+}
+.search-container.active{
+    display: flex;
+}
+input{
+    width: 30%;
+    height: 2rem;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.search-walla-img{
+    background-color: #1098ad;
+    border-radius: 50%;    
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.main-container{
+    display: none;
+}
+.main-container.active{
+    display: flex;
+}
+.first-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 12px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 30px;
+}
+.three-div-container{
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+.parameter{
+    /* border: 2px solid black; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.649);
+    transition: all 5s ease-in-out;
+}
+.tab{
+    font-size: 21px;
+    font-weight: 600;
+}
+.changes{
+    background-color: rgba(128, 128, 128, 0.568);
+    padding: 5px;
+    border-radius: 3px;
+}
+.gif-container.active{
+    display: flex;
+}
+.gif-container{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
